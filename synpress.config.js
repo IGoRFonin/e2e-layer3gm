@@ -1,10 +1,6 @@
 const { defineConfig } = require('cypress')
 const synpressPlugins = require('@synthetixio/synpress/plugins');
 
-
-/*
-
- */
 module.exports = defineConfig({
     userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.5304.88 Safari/537.36',
     retries: {
