@@ -1,0 +1,17 @@
+{
+  "name": "layer3gm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "env-cmd -f .env synpress run -cf synpress.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "@synthetixio/synpress": "^3.1.0",
+    "env-cmd": "^10.1.0"
+  }
+}
